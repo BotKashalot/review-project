@@ -8,6 +8,14 @@ h1 {
 ul {
     color: white;
 }
+ol {
+    color: white;
+}
 li {
     list-style: none;
+}
+img {
+    size: 200pxl;
+    height: 200pxl;
+    width: 200pxl;
 }

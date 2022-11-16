@@ -60,3 +60,50 @@
 
 const image = document.querySelector("img")
 console.log(image)
+
+const div = document.querySelector("div")
+console.log(div)
+
+//const imagesData=[{
+//    title = "image1"
+//    src = "http://google.com"
+//}]
+
+
+const body = document.querySelector('body')
+console.log(body)
+
+const newDiv = document.createElement("div");
+newDiv.textContent = "new div experiement";
+console.log(newDiv);
+newDiv.style.color = "white";
+body.appendChild(newDiv)
+
+
+const body2 = {};
+function appendChild(){
+    console.log("I am David");
+}
+
+body2.appendChild = append.Child;
+
+console.log(body2.appendChild());
+
+const body3 = {
+    element: [],
+    style: {
+        color: "",
+    },
+    appendChild: function appendChild2(){
+        console.log("I am David");
+    },
+};
+
+
+body3.appendChild2 = append.Child2;
+
+console.log(body3.appendChild2());
+
+body3.element.push("div");
+body.style.color = "red";
+console.log(body.element);
